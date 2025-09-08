@@ -10,7 +10,8 @@
 - **要点**:
     - 注意「左闭右开」`[left, right)` 和「左闭右闭」`[left, right]` 区间的区别
     - `mid` 的取值方式 `left + (right - left) / 2` 可以有效防止整数溢出
-    - 需要根据区间的定义，正确地更新 `left` 和 `right` 的位置  
+    - 需要根据区间的定义，正确地更新 `left` 和 `right` 的位置
+    - 对于已排序数组，二分查找已是理论最优解 O(log n)
 
 ### [27. 移除元素](https://leetcode.cn/problems/remove-element/)
 

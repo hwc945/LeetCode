@@ -3,6 +3,8 @@ package lc
 
 // 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果 target 存在返回下标，否则返回 -1。
 // 你必须编写一个具有 O(log n) 时间复杂度的算法。
+
+// 注意：对于已排序数组，二分查找已是理论最优解 O(log n)
 func search(nums []int, target int) int {
 	position := -1
 	left, right := 0, len(nums)-1
