@@ -41,3 +41,10 @@
     - 维护边界：使用 left, right, top, bottom四个变量控制填充范围。
     - 边界收缩：每次填充完一圈后，收缩边界以避免重复填充。
     - 终止条件：当填充的数字达到 n²时结束。
+### [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/)
+
+- **完成日期**: 2025-09-09
+- **要点**:
+    - 使用 pre和 next指针进行链表遍历和删除操作
+    - 头结点特殊情况可以增加哨兵节点处理
+    - 可以使用递归方法简化代码
