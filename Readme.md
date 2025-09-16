@@ -19,9 +19,10 @@
 
 ## 链表
 
-| 题目 | 完成日期 | 要点 | 题解 |
-| :--- | :--- | :--- | :--- |
-| [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/) | 2025-09-10 | <ul><li>使用 pre和 next指针进行链表遍历和删除操作</li><li>头结点特殊情况可以增加哨兵节点处理</li><li>可以使用递归方法简化代码</li></ul> | [Go](./lc/lc_203.go) |
+| 题目 | 完成日期           | 要点                                                                                                                     | 题解                   |
+| :--- |:---------------|:-----------------------------------------------------------------------------------------------------------------------|:---------------------|
+| [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/) | 2025-09-10     | <ul><li>使用 pre和 next指针进行链表遍历和删除操作</li><li>头结点特殊情况可以增加哨兵节点处理</li><li>可以使用递归方法简化代码</li></ul>                             | [Go](./lc/lc_203.go) |
 | [707. 设计链表](https://leetcode.cn/problems/design-linked-list/description/) | 2025-09-12（失败） | <ul><li>使用哨兵节点：简化头节点操作</li><li>维护链表长度：便于索引验证</li><li>正确修改链表头：通过返回新链表头或使用二级指针</li><li>统一空链表处理：确保所有方法都能正确处理空链表</li></ul> | [Go](./lc/lc_707.go) |
-| [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/) | 2025-09-12 | <ul><li>使用哨兵节点：简化头节点操作</li><li>改用迭代方法：避免递归的栈溢出风险，降低空间复杂度</li><li>更清晰的指针操作：明确展示节点交换过程</li></ul> | [Go](./lc/lc_24.go) |
-| [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/description/) | 2025-09-12 | <ul><li>迭代方法：避免递归的栈溢出风险，降低空间复杂度</li><li>递归算法：只负责深入到链表末尾，在递归返回时执行指针反转操作，始终保持返回的是原链表的尾节点（新头节点）</li></ul> | [Go](./lc/lc_206.go) |
+| [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/) | 2025-09-12     | <ul><li>使用哨兵节点：简化头节点操作</li><li>改用迭代方法：避免递归的栈溢出风险，降低空间复杂度</li><li>更清晰的指针操作：明确展示节点交换过程</li></ul>                         | [Go](./lc/lc_24.go)  |
+| [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/description/) | 2025-09-12     | <ul><li>迭代方法：避免递归的栈溢出风险，降低空间复杂度</li><li>递归算法：只负责深入到链表末尾，在递归返回时执行指针反转操作，始终保持返回的是原链表的尾节点（新头节点）</li></ul>                 | [Go](./lc/lc_206.go) |
+| [19. 删除链表的倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/) | 2025-09-16     | <ul><li>迭代方法：求出链表长度，找到倒数第n个节点</li><li>双指针算法：快指针指向结尾，慢指针为快指针前第n个节点</li><li>栈算法：所有节点存入栈，直接找到倒数第n个节点删除</li></ul>          | [Go](./lc/lc_19.go)  |
