@@ -2,8 +2,9 @@ package main
 
 import (
 	"LeetCode/lc"
+	"fmt"
 )
 
 func main() {
-	lc.RemoveDuplicates0([]int{1, 1, 1, 2, 2, 3})
+	fmt.Println(lc.DeleteAndEarn([]int{3, 3, 3, 4, 2}))
 }
